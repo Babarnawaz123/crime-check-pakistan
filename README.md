@@ -152,6 +152,10 @@ Always consult a qualified lawyer for legal matters.
 
 ---
 
-## 👨‍💻 Developer
-Built by **Babar** — BSSE Final Year Project
-# crime-check-pakistan
+## to run the Backend 
+cd E:\crime-check-pakistan\backend
+venv\Scripts\activate
+uvicorn main:app --reload --port 8000
+
+cd E:\crime-check-pakistan\frontend
+npm run dev
